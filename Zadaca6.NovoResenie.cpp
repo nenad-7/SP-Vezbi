@@ -51,13 +51,13 @@ void rowIncDec(int n, int m, int matrica[10][10]) {
 			}
 		}
 		if (rasteckiRed == true) {
-			cout << "Redot " << i << " e rastecki" << endl;
+			cout << "Redot " << i+1 << " e rastecki" << endl;
 		}
 		else if (opajgackiRed == true) {
-			cout << "Redot " << i << " e opajgacki" << endl;
+			cout << "Redot " << i+1 << " e opajgacki" << endl;
 		}
 		else {
-			cout << "Redot " << i << " nitu rastecki nitu opajgacki" << endl;
+			cout << "Redot " << i+1 << " nitu rastecki nitu opajgacki" << endl;
 		}
 	}
 }
@@ -76,13 +76,13 @@ void columnIncDec(int n, int m, int matrica[10][10]) {
 			}
 		}
 		if (rasteckaKolona == true) {
-			cout << "Kolonata " << j << " e rastecka" << endl;
+			cout << "Kolonata " << j+1 << " e rastecka" << endl;
 		}
 		else if (opajgackaKolona == true) {
-			cout << "Kolonata " << j << " e opajgacka" << endl;
+			cout << "Kolonata " << j+1 << " e opajgacka" << endl;
 		}
 		else {
-			cout << "Kolonata " << j << " nitu rastecka nitu opajgacka" << endl;
+			cout << "Kolonata " << j+1 << " nitu rastecka nitu opajgacka" << endl;
 		}
 	}
 }
